@@ -43,7 +43,7 @@ def fetch_articles(category: str):
         results = session.exec(statement).all()
         return results
 
-# Define a root GET endpoint
+# define a root GET endpoint
 @app.get("/")
 def read_root():
     return {

@@ -1,8 +1,10 @@
-# Python virtual environment
+# Virtual Environment
 venv/
 __pycache__/
 *.pyc
 
-# Database & Environment Secrets
+# Database
 *.db
+
+# Environment Secrets & API Keys
 .env
